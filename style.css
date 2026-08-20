@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f4f6f8;
+    color: #212529;
+}
+
+main {
+    max-width: 700px;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.form-amostra {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+.amostra {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(45px, 1fr));
+    place-items: center;
+    place-content: center;
+    gap: 12px;
+    min-height: 60px;
+    border-radius: 10px;
+    font-size: 1.05rem;
+    font-weight: 500;
+}
+
+@media(max-width: 700px) {
+    .input-container {
+        flex-direction: column;
+    }
+}
